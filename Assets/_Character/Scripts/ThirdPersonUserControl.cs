@@ -16,7 +16,7 @@ public class ThirdPersonUserControl : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float accelerate = Input.GetAxis("Accelerate");
         float brake = Input.GetAxis("Brake");
-        bool jump = Input.GetButtonDown("Jump");
+        bool jump = Input.GetButton("Jump");
 
         m_Character.Move(horizontal, accelerate, brake, jump);
     }
