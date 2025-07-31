@@ -17,7 +17,7 @@ public class CameraController : MonoBehaviour
         {
             // === POSITION FOLLOWING ===
             Vector3 targetPosition = m_Target.transform.position;
-            targetPosition.y = transform.position.y; // Keep the camera at the same height
+            // targetPosition.y = transform.position.y; // Keep the camera at the same height
             transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * 3f);
 
             // === ROTATION FOLLOWING ===
