@@ -63,17 +63,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 966f079c9785b304684b8f0121803e55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 20
-  accelerationSpeed: 10
+  maxSpeed: 25
+  accelerationSpeed: 12
   coastingDeceleration: 3
   brakingDeceleration: 20
   turnSpeed: 100
-  airTurnSpeed: 300
+  airTurnSpeed: 500
   currentSpeed: 0
   m_IsBoosting: 0
   m_ActiveBoosts: []
   m_boostModifier: 2
-  jumpForce: 8
+  jumpForce: 4
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trailColliderPrefab: {fileID: 2215156774787024847, guid: bb760a861a8a49648a81d3b49cbb7eff,
     type: 3}
-  pointSpacing: 2
+  pointSpacing: 3
   lifetime: 60
 --- !u!96 &797667915381991292
 TrailRenderer:
@@ -237,7 +237,7 @@ TrailRenderer:
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 1
+    widthMultiplier: 3
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -250,12 +250,21 @@ TrailRenderer:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.72839546
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.7605419, g: 0, b: 1, a: 1}
+      key0: {r: 0.2777431, g: 0, b: 0.509434, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -264,7 +273,7 @@ TrailRenderer:
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 65535
+      ctime1: 65150
       ctime2: 0
       ctime3: 0
       ctime4: 0
