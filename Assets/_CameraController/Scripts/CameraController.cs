@@ -3,14 +3,38 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
 
+    public static CameraController Instance { get; set; }
     public float followSpeed = 8f;
-    GameObject m_Target;
+    public GameObject m_Target;
     ThirdPersonWitchController m_TargetController;
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject); // Ensure only one instance exists
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
         m_Target = GameObject.FindGameObjectWithTag("Player");
-        m_TargetController = m_Target.GetComponent<ThirdPersonWitchController>();
+        if (m_Target != null)
+        {
+            m_TargetController = m_Target.GetComponent<ThirdPersonWitchController>();
+        }
+    }
+
+    public void SetTarget(GameObject target)
+    {
+        m_Target = target;
+        if (m_Target != null)
+        {
+            m_TargetController = m_Target.GetComponent<ThirdPersonWitchController>();
+        }
     }
 
     // Update is called once per frame
