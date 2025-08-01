@@ -52,6 +52,7 @@ public class ThirdPersonWitchController : MonoBehaviour
 
     public void Move(float horizontal, float acceleration, float brake, bool jump)
     {
+        if (GameStateController.Instance.m_CurrentState != GameState.Playing) return;
         if (m_IsGrounded)
         {
             if (acceleration > .1)

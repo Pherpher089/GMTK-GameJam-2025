@@ -19,7 +19,7 @@ public class TrailPointManager : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, lastPoint) >= pointSpacing)
         {
-            GameObject point = Instantiate(trailColliderPrefab, transform.position, Quaternion.identity);
+            GameObject point = Instantiate(trailColliderPrefab, transform.position - (transform.forward * .5f), Quaternion.identity);
             Destroy(point, lifetime);
             spawnedPoints.Add(point);
             lastPoint = transform.position;

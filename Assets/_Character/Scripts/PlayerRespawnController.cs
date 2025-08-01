@@ -18,7 +18,7 @@ public class PlayerRespawnController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (m_CharacterInstance == null)
+        if (m_CharacterInstance == null && GameStateController.Instance.m_CurrentState == GameState.Playing)
         {
             m_CharacterInstance = Instantiate(m_Character, transform.position, transform.rotation);
             CameraController.Instance.SetTarget(m_CharacterInstance);
