@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 1698590299428476265}
   - component: {fileID: 2520741817916133944}
   m_Layer: 0
-  m_Name: TerotCard
-  m_TagString: Untagged
+  m_Name: TarotCard
+  m_TagString: Tarot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

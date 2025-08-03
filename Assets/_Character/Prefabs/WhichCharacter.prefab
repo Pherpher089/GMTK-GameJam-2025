@@ -80,7 +80,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  groundCheckDistance: 0.3
+  groundCheckDistance: 1
   m_IsGrounded: 0
 --- !u!54 &2355363501473366037
 Rigidbody:
