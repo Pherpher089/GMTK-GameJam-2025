@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -338, y: 308.27}
+  m_AnchoredPosition: {x: 318, y: 308.27}
   m_SizeDelta: {x: 622.1077, y: 514.5879}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &12683294
@@ -231,7 +231,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -69.30945, y: 363.26}
+  m_AnchoredPosition: {x: 368, y: 363.26}
   m_SizeDelta: {x: 707.0011, y: 624.5605}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &172499395
@@ -306,7 +306,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 419, y: -243}
+  m_AnchoredPosition: {x: 505, y: -260}
   m_SizeDelta: {x: 36.5448, y: 26.4096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &523646583
@@ -843,7 +843,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 214, y: -257}
+  m_AnchoredPosition: {x: 380, y: -257}
   m_SizeDelta: {x: 744.2414, y: 682.7148}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1270026363
@@ -1055,7 +1055,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 266.4389, y: 349}
+  m_AnchoredPosition: {x: 435, y: 349}
   m_SizeDelta: {x: 446.9379, y: 596.0322}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1598630511
@@ -1079,8 +1079,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "By Galactic Bicycle \nGame Studio\n\n2D Art \n- Kia, Gloria\n\n3D Art
-    \n- Griffin Hay\n\nProgramming \n- Chris Tutor\n\nGame Design, \nLevel Design
-    \n- Gerardo Hernandez"
+    \n- Griffin Hay\n\nProgramming \n- Chris Tutor\n\nGame Design\n- Gerardo Hernandez\n\nMusic
+    \n- \"Skater Song\" by marcobellonimusic - Pixabay"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1107,8 +1107,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1143,7 +1143,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -102.16675, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
