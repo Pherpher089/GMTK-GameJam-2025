@@ -233,7 +233,7 @@ MonoBehaviour:
   trailColliderPrefab: {fileID: 2215156774787024847, guid: bb760a861a8a49648a81d3b49cbb7eff,
     type: 3}
   pointSpacing: 3
-  lifetime: 60
+  lifetime: 180
 --- !u!96 &797667915381991292
 TrailRenderer:
   serializedVersion: 3
@@ -276,7 +276,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 60
+  m_Time: 180
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
